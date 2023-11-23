@@ -4,7 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3902222d-ca60-43cb-8990-c22a52da26e0" name="Changes" comment="111" />
+    <list default="true" id="3902222d-ca60-43cb-8990-c22a52da26e0" name="Changes" comment="111">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/auth/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/auth/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/auth/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/auth/UserInfoHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/auth/UserInfoInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/chatai/ChatAIEventSourceListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/config/AuthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/config/ChatGptConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/constant/RequestContextConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/controller/ChatSessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/controller/MerchandiseAttrController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/controller/MerchandiseCarouselController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/controller/MerchandiseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/controller/MerchantCarouselController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/controller/PresentQnAController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/ChatMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/ChatSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/Merchandise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/MerchandiseAttr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/MerchandiseCarousel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/Merchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/MerchantCarousel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/PresetQnA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/dto/ChatSessionDto4C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/dto/ChatSessionDto4M.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/dto/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/dto/MerchandiseInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/dto/MerchantInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/vo/CustomerVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/vo/MerchandiseCarouselVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/vo/MerchantCarouselVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/vo/MerchantVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/entity/vo/UserChatVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/repository/ChatMessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/repository/ChatSessionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/repository/MerchandiseAttrRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/repository/MerchandiseCarouselRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/repository/MerchandiseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/repository/MerchantCarouselRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/repository/MerchantRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/repository/PresentQnARepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/service/ChatMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/service/ChatSessionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/service/MerchandiseAttrService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/service/MerchandiseCarouselService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/service/MerchandiseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/service/MerchantCarouselService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/service/MerchantService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/service/PresentQnAService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/service/QiniuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/util/MessageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/KnowBabyDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/script/KnowBabyDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/config/SpringFoxConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/config/SpringFoxConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/controller/MerchantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/controller/MerchantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/host/luke/knowbaby/service/ChatAITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/host/luke/knowbaby/service/ChatAITest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +79,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -25,6 +93,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/com/github/plexpt/chatgpt/4.2.0/chatgpt-4.2.0.jar!/com/plexpt/chatgpt/ChatGPTStream.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -34,26 +105,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/weizhile/Developer/KnowBaby",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;c1c59a0a-d399-4c62-9017-a8b28c872fe3&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/weizhile/Developer/KnowBaby/src/main/java/host/luke/knowbaby/component&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b494919df886728cbdd577eb8dc15827&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/host/luke/knowbaby/component" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="host.luke.knowbaby.config" />
+      <recent name="host.luke.knowbaby.service" />
+      <recent name="host.luke.knowbaby.repository" />
       <recent name="host.luke.config" />
     </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="host.luke.knowbaby.entity" />
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.KnowBabyApplication">
     <configuration name="ChatAITest.simpleChatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KnowBaby" />
       <extension name="coverage">
@@ -70,8 +163,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KnowBabyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="KnowBaby" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="host.luke.knowbaby.KnowBabyApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="host.luke.knowbaby.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.KnowBabyApplication" />
         <item itemvalue="JUnit.ChatAITest.simpleChatTest" />
       </list>
     </recent_temporary>
@@ -84,7 +191,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700298821831</updated>
-      <workItem from="1700298823094" duration="7730000" />
+      <workItem from="1700298823094" duration="35912000" />
+      <workItem from="1700485929914" duration="30234000" />
+      <workItem from="1700581173642" duration="6384000" />
+      <workItem from="1700637583359" duration="859000" />
+      <workItem from="1700642584739" duration="1815000" />
+      <workItem from="1700657063264" duration="3000" />
+      <workItem from="1700670637637" duration="6574000" />
+      <workItem from="1700730556451" duration="1412000" />
+      <workItem from="1700754295066" duration="1484000" />
+      <workItem from="1700760960731" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1700406592390</created>
@@ -114,7 +230,28 @@
       <option name="project" value="LOCAL" />
       <updated>1700407676491</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="111">
+      <created>1700407805666</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700407805666</updated>
+    </task>
+    <task id="LOCAL-00006" summary="111">
+      <created>1700407829247</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700407829247</updated>
+    </task>
+    <task id="LOCAL-00007" summary="111">
+      <created>1700407910643</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700407910643</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,5 +271,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="111" />
     <option name="LAST_COMMIT_MESSAGE" value="111" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
